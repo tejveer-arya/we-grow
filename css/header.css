@@ -180,7 +180,7 @@
 .main-header .header-lower .logo-box{
 	position: relative;
 	z-index: 1;
-	padding: 0px;
+	padding: 26px 0px;
 }
 
 .main-header .header-lower .logo-box .logo{
@@ -240,7 +240,7 @@
 }
 
 .main-header.fixed-header .header-lower .logo-box{
-	padding:0px;
+	padding:15px 0px;
 }
 
 .main-header.fixed-header .header-lower{
@@ -1279,6 +1279,8 @@
 
 .navSidebar-button{
 	position:relative;
+	width:48px;
+	height:48px;
 	font-size:18px;
 	cursor:pointer;
 	padding: 0px 15px;
@@ -1301,7 +1303,7 @@
 	color: var(--white-color);
 	background-color: var(--main-color);
 }
-
+.main-header.header-style-two .search-box-btn .icon i{font-family: fontAwesome;color: var(--white-color);}
 /*** 
 
 ====================================================================

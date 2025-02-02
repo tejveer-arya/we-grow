@@ -933,6 +933,7 @@
 .property-one{
 	position:relative;
 	padding:100px 0px 100px;
+	margin-top: 100px;
 }
 
 .property-one.style-two .sec-title{
@@ -2428,7 +2429,8 @@
 
 .services-one{
 	position:relative;
-	padding:100px 0px 100px;
+	padding:100px 0px 0px;
+	/* padding:100px 0px 100px; */
 }
 
 .services-one.style-two::before{
@@ -2594,7 +2596,7 @@
 	-o-transition:all 500ms ease;
 }
 
-.service-block_one-inner:hover .service-block_one-text{
+.service-block_one-inner:hover .service-block_one-text p{
 	color:var(--white-color);
 }
 
@@ -2672,7 +2674,8 @@
 
 .story-two{
 	position: relative;
-	padding: 0px 0px 70px;
+	padding: 100px 0px 0px;
+	/* padding: 100px 0px 70px; */
 }
 
 .story-two_image-column{
@@ -2694,10 +2697,10 @@
 
 .story-two_image-two{
 	position:absolute;
-	right:0px;
-	bottom:0px;
+	right:-30px;
+	bottom:-30px;
 	width:294px;
-	height:396px;
+	height:auto;
 	overflow:hidden;
 	border-radius:16px;
 	border:10px solid var(--white-color);
@@ -2720,8 +2723,8 @@
 .story-two_content-outer{
 	position:relative;
 	padding-top:50px;
-	padding-left:50px;
-	padding-right:50px;
+	padding-left:20px;
+	padding-right:20px;
 }
 
 .story-two_check{
@@ -3295,7 +3298,7 @@
 
 .team-two{
 	position:relative;
-	padding:100px 0px 100px;
+	padding:130px 0px 100px;
 }
 
 .team-two_button{

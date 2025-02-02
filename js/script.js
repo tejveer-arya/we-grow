@@ -51,10 +51,14 @@
 		$('.main-header .navigation li.dropdown > a,.hidden-bar .side-menu li.dropdown > a').on('click', function(e) {
 			e.preventDefault();
 		});
+		$('.header_button-box').on('click', function(e) {
+			$('.xs-sidebar-group.info-group').addClass('isActive');
+		});
 
 		$('.xs-sidebar-group .close-button').on('click', function(e) {
 			$('.xs-sidebar-group.info-group').removeClass('isActive');
 		});
+		
 
 		$('.about-widget').on('click', function(e) {
 			$('.about-sidebar').addClass('active');
@@ -125,7 +129,7 @@
 		});
 
 		//Menu Toggle Btn
-		$('.mobile-menu .menu-backdrop,.mobile-menu .close-btn').on('click', function() {
+		$('.mobile-menu .menu-backdrop,.mobile-menu .close-btn, .main-header .mobile-menu .navigation li > a').on('click', function() {
 			$('body').removeClass('mobile-menu-visible');
 			$('.mobile-menu .navigation > li').removeClass('open');
 			$('.mobile-menu .navigation li ul').slideUp(0);
