@@ -4,11 +4,11 @@
 	
 	
 	//Hide Loading Box (Preloader)
-	function handlePreloader() {
-		if($('.preloader').length){
-			$('.preloader').delay(200).fadeOut(500);
-		}
-	}
+	// function handlePreloader() {
+	// 	if($('.preloader').length){
+	// 		$('.preloader').delay(200).fadeOut(500);
+	// 	}
+	// }
 	
 	
 	//Update Header Style and Scroll to Top
@@ -870,8 +870,8 @@
    When document is loading, do
    ========================================================================== */
 	
-	$(window).on('load', function() {
-		handlePreloader();
-	});	
+	// $(window).on('load', function() {
+	// 	handlePreloader();
+	// });	
 
 })(window.jQuery);

@@ -17,6 +17,7 @@
 <link href="css/custom-animate.css" rel="stylesheet">
 <link href="css/magnific-popup.css" rel="stylesheet">
 <!-- <link href="css/flaticon_palace-icons.css" rel="stylesheet"> -->
+<link href="css/floating-wpp.css" rel="stylesheet">
 <link href="css/odometer-theme-default.css" rel="stylesheet">
 <link href="css/jquery.bootstrap-touchspin.css" rel="stylesheet">
 <link href="css/style.css" rel="stylesheet">
@@ -1423,7 +1424,7 @@
 		<path d="M50,1 a49,49 0 0,1 0,98 a49,49 0 0,1 0,-98"/>
 	</svg>
 </div>
-
+<div id="WAButton"></div>
 
 <script src="js/jquery.js"></script>
 <script src="js/popper.min.js"></script>
@@ -1450,6 +1451,17 @@
 <script src="js/jquery-ui.js"></script>
 <script src="js/jquery.countdown.js"></script>
 <script src="js/element-in-view.js"></script>
+<script src="js/floating-wpp.min.js"></script>
+<script>
+			$('#WAButton').floatingWhatsApp({
+               phone: '7421922000', //WhatsApp Business phone number
+               headerTitle: 'Chat with us on WhatsApp!', //Popup Title
+               popupMessage: 'Hello, how can we help you?', //Popup Message
+               showPopup: true, //Enables popup display
+               buttonImage: '<img src="images/whatsapp.png"/>',
+               position: "left" //Position: left | right
+			});
+</script>
 <script src="js/script.js"></script>
 
 </body>
