@@ -921,7 +921,9 @@
 	font-size:14px;
 	color:var(--color-six);
 }
-
+.content-amenities ul{display: flex;justify-content: center;gap:15px;padding: 40px 0 0 0;color: var(--white-color);}
+.content-amenities ul li{font-size: 18px;}
+.content-amenities ul li i{font-family: 'flaticon_palace-icons';}
 /*** 
 
 ====================================================================

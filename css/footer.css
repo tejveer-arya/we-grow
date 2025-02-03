@@ -119,12 +119,17 @@
 
 .footer-list{
 	position:relative;
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
 }
 
 .footer-list li{
 	position:relative;
 	margin-bottom:20px;
+	flex: 1 0 50%;
 }
+
 
 .footer-list li a{
 	position:relative;
